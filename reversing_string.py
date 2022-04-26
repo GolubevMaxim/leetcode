@@ -8,9 +8,3 @@ class Solution:
         """
         for i in range(len(s) // 2):
             s[i], s[-i - 1] = s[-i - 1], s[i]
-
-
-s = Solution()
-lst = ['a', 'b', 'c', 'd']
-s.reverseString(lst)
-print(lst)
