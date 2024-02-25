@@ -1,6 +1,4 @@
 # https://leetcode.com/problems/longest-palindromic-substring/
-from functools import cache
-
 
 class Solution:
     def is_palindrome(self, s: str):
